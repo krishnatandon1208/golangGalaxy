@@ -9,6 +9,8 @@ func main() {
 
 	var x int = 10
 
+	var name string = "Krishna"
+
 	fmt.Printf("Hi, I am a string - \"%s\" \n", "Krishna")
 	fmt.Printf("HI, I am number - %d \n", 12)
 
@@ -21,6 +23,8 @@ func main() {
 	fmt.Println("Checking the type of the variable")
 
 	fmt.Println(reflect.TypeOf(x))
+
+	fmt.Println(reflect.TypeOf(name))
 
 	fmt.Print(reflect.TypeOf(float64(x) * 12.8))
 }
