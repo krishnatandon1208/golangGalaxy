@@ -9,7 +9,7 @@ import (
 func printAge(ages ...int) int {
 	fmt.Println(reflect.TypeOf(ages))
 	fmt.Println(ages)
-
+	fmt.Println(reflect.TypeOf(len(ages)))
 	fmt.Println(len(ages))
 
 	for i := 0; i < len(ages); i++ {
