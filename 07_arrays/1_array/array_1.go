@@ -11,5 +11,5 @@ func main() {
 	var studentAge [5]int
 	var studentGpa [5]float64
 
-	fmt.Println(studentName, studentAge, studentGpa+"\n")
+	fmt.Println(studentName, studentAge, studentGpa)
 }
