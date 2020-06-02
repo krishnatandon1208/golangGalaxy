@@ -9,14 +9,14 @@ func main() {
 	fmt.Println(fruitArray)
 
 	//Create a slice.
-	splicedFruit := fruitArray[1:3]
+	splicedFruit := fruitArray[0:3]
 
 	//Add a fruit -> orange
-	fruitToAdd := append(splicedFruit, "orange", "cheeries")
+	fruitToAdd := append(splicedFruit, "orange", "cheeries", "lemon", "1", "2", "3", "4")
 
 	fmt.Println(splicedFruit)
 	fmt.Println(fruitToAdd)
 
-	fmt.Println(len(fruitToAdd))
-	fmt.Println(cap(fruitToAdd))
+	fmt.Println(len(splicedFruit), cap(splicedFruit))
+	fmt.Println(len(fruitToAdd), cap(fruitToAdd))
 }
