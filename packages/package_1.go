@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"/Users/krishnatandon/go/src/11_packages/utils"
+	"packages/utils"
 )
 
 func calculateImportantData() int{
