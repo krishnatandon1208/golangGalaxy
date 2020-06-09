@@ -5,8 +5,8 @@ import (
 	"packages/utils"
 )
 
-func calculateImportantData() int{
-	totalValue := 2_packages.Add(1, 2, 3, 4, 5)
+func calculateImportantData() int {
+	totalValue := utils.Add(1, 2, 3, 4, 5)
 	return totalValue
 }
 
