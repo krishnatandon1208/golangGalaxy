@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+//User := is of type struct
 type User struct {
 	ID        int
 	firstName string
