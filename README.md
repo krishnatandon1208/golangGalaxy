@@ -1,2 +1,2 @@
 # golangGalaxy
-A way to explore goLang and develop projects using the same.
+A way to explore goLang and develop projects using it.
